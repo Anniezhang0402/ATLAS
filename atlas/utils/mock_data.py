@@ -1,4 +1,18 @@
 """
+⚠️ DEPRECATED — Prefer atlas.utils.load_cassia_data
+======================================================
+This synthetic FindAllMarkers generator was used during early ATLAS
+development. It still works, but the real CASSIA example data is a
+better testbed:
+
+  from atlas.utils.load_cassia_data import load_unprocessed
+  df = load_unprocessed()
+
+Kept for reference and as a fallback when CASSIA isn't cloned locally.
+======================================================
+"""
+
+"""
 ATLAS Mock Data Generator
 =========================
 Builds a realistic FindAllMarkers-style CSV with 4 clusters designed to
