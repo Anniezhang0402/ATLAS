@@ -1,0 +1,13 @@
+[theme]
+base = "light"
+primaryColor = "#f97316"          # Orange — same as report header
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8fafc"
+textColor = "#1f2937"
+font = "sans serif"
+[server]
+runOnSave = true                  # Auto-reload on file save
+headless = false
+enableCORS = false
+[browser]
+gatherUsageStats = false
