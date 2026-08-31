@@ -22,7 +22,7 @@ Given a ranked marker gene list and basic biological context, ATLAS produces str
 
 ## ✨ Key Features
 
-- **Multi-agent annotation workflow** (CASSIA-style) — reasoning, validation, formatting, scoring, and reporting agents.
+- **Multi-agent annotation workflow**  — reasoning, validation, formatting, scoring, and reporting agents.
 - **Hybrid biological grounding** (scRAG) — structured triples from knowledge graphs + similar cells from a vector index.
 - **Iterative self-checking** — validates marker–cell type consistency and revises uncertain annotations (≤ 3 cycles).
 - **Quality-aware refinement** — triggers an Annotation Boost agent only when the score falls below a threshold.
@@ -33,7 +33,7 @@ Given a ranked marker gene list and basic biological context, ATLAS produces str
 <details>
 <summary>🇨🇳 中文：核心特性</summary>
 
-- **多智能体注释流程**（CASSIA 式）：推理、校验、格式化、打分、报告等智能体。
+- **多智能体注释流程**：推理、校验、格式化、打分、报告等智能体。
 - **混合生物学 grounding**（scRAG ）：知识图谱的结构化三元组 + 向量索引的相似细胞。
 - **迭代自校验**：检查 marker 与细胞类型一致性，对不确定注释进行修正（≤ 3 轮）。
 - **质量感知的精修**：仅当分数低于阈值时才触发 Annotation Boost 智能体。
